@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junaid Ul Haque Sheikh - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <header class="header">
+            <h1 class="title">Junaid Ul Haque Sheikh</h1>
+            <nav class="nav">
+                <button class="button ghost">My Resume</button>
+                <button class="button outline">Generate your</button>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <div class="card profile-card">
+                <div class="profile-picture">
+                    <img src="https://scontent.fkhi17-1.fna.fbcdn.net/v/t39.30808-6/417487126_122141146160060976_4686199973069845749_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFdsU4GzVT7I2Gi_ffi5FoxU1sZunhfcAhTWxm6eF9wCFVVDGurgWFzpSpuairmt3Ujgddb1ra81WgFFy0bEyFf&_nc_ohc=_O9x_PezAsYQ7kNvgEGNnjB&_nc_zt=23&_nc_ht=scontent.fkhi17-1.fna&_nc_gid=Ay-dQg0NWFJ3KEJ1Ubp8mDD&oh=00_AYAHHw5TEmdHc3kwlHTbL4c-OO0-mV0xQ99lzYbTXkI1qg&oe=6728EF4E"
+                        alt="Profile">
+                </div>
+                <div class="profile-details">
+                    <h2 class="profile-name">Junaid Ul Haque Sheikh</h2>
+                    <h3 class="profile-role">Web Developer</h3>
+                    <p><strong>Father's Name:</strong> Abdul Haque Sheikh</p>
+                    <p><strong>Email:</strong> junaidulhaquesheikg204@gmail.com / junaidulhaquesheikh582@gmail.com</p>
+                    <p><strong>Phone:</strong> +923359033554 / +923343046525</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="card education-card">
+                    <h3>Education</h3>
+                    <p>Bachelor of Arts (B.A), Shah Abdul Latif University, Kamber Ali Khan Larkana (2016)</p>
+                    <p>Intermediate, Shah Abdul Latif University, Larkana Board (2014)</p>
+                    <p>Matriculation, New Oxford Academy (2008)</p>
+                </div>
+
+                <div class="card skills-card">
+                    <h3>Skills & Certifications</h3>
+                    <form id="skillsForm">
+                        <label>Skill Name</label>
+                        <input type="text" placeholder="Enter your skill">
+                        <label>Certification Name</label>
+                        <input type="text" placeholder="Enter your certification">
+                        <label>Issuing Organization</label>
+                        <input type="text" placeholder="Enter the issuing organization">
+                        <label>Issue Date</label>
+                        <input type="date">
+                        <button type="submit" class="button add-skill">Add Skill/Certification</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button id="generateResume" class="button gradient">Generate Resume</button>
+                <button class="button outline">Download as PDF</button>
+                <button id="lightningButton" class="button gradient">Add Lightning Effect</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

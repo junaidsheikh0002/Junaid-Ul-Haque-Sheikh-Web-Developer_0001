@@ -1,0 +1,22 @@
+{
+  "name": "rainbow-resume-by-junaid-ul-haque-sheikh_0001",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "python": "^0.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.8.4"
+  },
+  "description": ""
+}
